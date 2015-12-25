@@ -1,0 +1,510 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8412A8E21B433CE8001201AA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8412A8E11B433CE8001201AA /* AppDelegate.swift */; };
+		8412A8E41B433CE8001201AA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8412A8E31B433CE8001201AA /* ViewController.swift */; };
+		8412A8E71B433CE8001201AA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8412A8E51B433CE8001201AA /* Main.storyboard */; };
+		8412A8E91B433CE8001201AA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8412A8E81B433CE8001201AA /* Images.xcassets */; };
+		8412A8EC1B433CE8001201AA /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8412A8EA1B433CE8001201AA /* LaunchScreen.xib */; };
+		8412A8F81B433CE8001201AA /* TYCardv2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8412A8F71B433CE8001201AA /* TYCardv2Tests.swift */; };
+		84B598451C1E607400CA082A /* prog1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 84B598421C1E607400CA082A /* prog1.jpg */; };
+		84B598461C1E607400CA082A /* prog2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 84B598431C1E607400CA082A /* prog2.jpg */; };
+		84B598471C1E607400CA082A /* prog3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 84B598441C1E607400CA082A /* prog3.jpg */; };
+		84B598521C1E608800CA082A /* card-01.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 84B598481C1E608800CA082A /* card-01.jpg */; };
+		84B598531C1E608800CA082A /* card-02.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 84B598491C1E608800CA082A /* card-02.jpg */; };
+		84B598541C1E608800CA082A /* card-03.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 84B5984A1C1E608800CA082A /* card-03.jpg */; };
+		84B598551C1E608800CA082A /* card-04.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 84B5984B1C1E608800CA082A /* card-04.jpg */; };
+		84B598561C1E608800CA082A /* card-05.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 84B5984C1C1E608800CA082A /* card-05.jpg */; };
+		84B598571C1E608800CA082A /* card-07.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 84B5984D1C1E608800CA082A /* card-07.jpg */; };
+		84B598581C1E608800CA082A /* card-08.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 84B5984E1C1E608800CA082A /* card-08.jpg */; };
+		84B598591C1E608800CA082A /* card-09.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 84B5984F1C1E608800CA082A /* card-09.jpg */; };
+		84B5985A1C1E608800CA082A /* card-10.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 84B598501C1E608800CA082A /* card-10.jpg */; };
+		84B5985B1C1E608800CA082A /* card-11.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 84B598511C1E608800CA082A /* card-11.jpg */; };
+		84D9F1251B6040E100725147 /* MyCollectionReusableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D9F1241B6040E100725147 /* MyCollectionReusableView.swift */; };
+		84D9F1271B61FA0100725147 /* MyCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D9F1261B61FA0100725147 /* MyCollectionViewCell.swift */; };
+		84DB81BE1B4F93C5005A330A /* ViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84DB81BD1B4F93C5005A330A /* ViewController2.swift */; };
+		84DB81DC1B5CE15D005A330A /* MyCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84DB81DB1B5CE15D005A330A /* MyCollectionViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8412A8F21B433CE8001201AA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8412A8D41B433CE8001201AA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8412A8DB1B433CE8001201AA;
+			remoteInfo = TYCardv2;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8412A8DC1B433CE8001201AA /* TYCardv2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TYCardv2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8412A8E01B433CE8001201AA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8412A8E11B433CE8001201AA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8412A8E31B433CE8001201AA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8412A8E61B433CE8001201AA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8412A8E81B433CE8001201AA /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		8412A8EB1B433CE8001201AA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		8412A8F11B433CE8001201AA /* TYCardv2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TYCardv2Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8412A8F61B433CE8001201AA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8412A8F71B433CE8001201AA /* TYCardv2Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TYCardv2Tests.swift; sourceTree = "<group>"; };
+		84B598421C1E607400CA082A /* prog1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = prog1.jpg; path = "../../../Users/admin/Desktop/Swift Apps/Merci!!/prog1.jpg"; sourceTree = "<group>"; };
+		84B598431C1E607400CA082A /* prog2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = prog2.jpg; path = "../../../Users/admin/Desktop/Swift Apps/Merci!!/prog2.jpg"; sourceTree = "<group>"; };
+		84B598441C1E607400CA082A /* prog3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = prog3.jpg; path = "../../../Users/admin/Desktop/Swift Apps/Merci!!/prog3.jpg"; sourceTree = "<group>"; };
+		84B598481C1E608800CA082A /* card-01.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "card-01.jpg"; path = "../../../Users/admin/Desktop/Swift Apps/Merci!!/cards/card-01.jpg"; sourceTree = "<group>"; };
+		84B598491C1E608800CA082A /* card-02.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "card-02.jpg"; path = "../../../Users/admin/Desktop/Swift Apps/Merci!!/cards/card-02.jpg"; sourceTree = "<group>"; };
+		84B5984A1C1E608800CA082A /* card-03.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "card-03.jpg"; path = "../../../Users/admin/Desktop/Swift Apps/Merci!!/cards/card-03.jpg"; sourceTree = "<group>"; };
+		84B5984B1C1E608800CA082A /* card-04.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "card-04.jpg"; path = "../../../Users/admin/Desktop/Swift Apps/Merci!!/cards/card-04.jpg"; sourceTree = "<group>"; };
+		84B5984C1C1E608800CA082A /* card-05.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "card-05.jpg"; path = "../../../Users/admin/Desktop/Swift Apps/Merci!!/cards/card-05.jpg"; sourceTree = "<group>"; };
+		84B5984D1C1E608800CA082A /* card-07.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "card-07.jpg"; path = "../../../Users/admin/Desktop/Swift Apps/Merci!!/cards/card-07.jpg"; sourceTree = "<group>"; };
+		84B5984E1C1E608800CA082A /* card-08.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "card-08.jpg"; path = "../../../Users/admin/Desktop/Swift Apps/Merci!!/cards/card-08.jpg"; sourceTree = "<group>"; };
+		84B5984F1C1E608800CA082A /* card-09.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "card-09.jpg"; path = "../../../Users/admin/Desktop/Swift Apps/Merci!!/cards/card-09.jpg"; sourceTree = "<group>"; };
+		84B598501C1E608800CA082A /* card-10.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "card-10.jpg"; path = "../../../Users/admin/Desktop/Swift Apps/Merci!!/cards/card-10.jpg"; sourceTree = "<group>"; };
+		84B598511C1E608800CA082A /* card-11.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "card-11.jpg"; path = "../../../Users/admin/Desktop/Swift Apps/Merci!!/cards/card-11.jpg"; sourceTree = "<group>"; };
+		84D9F1241B6040E100725147 /* MyCollectionReusableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyCollectionReusableView.swift; sourceTree = "<group>"; };
+		84D9F1261B61FA0100725147 /* MyCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyCollectionViewCell.swift; sourceTree = "<group>"; };
+		84DB81BD1B4F93C5005A330A /* ViewController2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController2.swift; sourceTree = "<group>"; };
+		84DB81DB1B5CE15D005A330A /* MyCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyCollectionViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8412A8D91B433CE8001201AA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8412A8EE1B433CE8001201AA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8412A8D31B433CE8001201AA = {
+			isa = PBXGroup;
+			children = (
+				8412A8DE1B433CE8001201AA /* TYCardv2 */,
+				8412A8F41B433CE8001201AA /* TYCardv2Tests */,
+				8412A8DD1B433CE8001201AA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8412A8DD1B433CE8001201AA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8412A8DC1B433CE8001201AA /* TYCardv2.app */,
+				8412A8F11B433CE8001201AA /* TYCardv2Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8412A8DE1B433CE8001201AA /* TYCardv2 */ = {
+			isa = PBXGroup;
+			children = (
+				8412A8E11B433CE8001201AA /* AppDelegate.swift */,
+				8412A8E31B433CE8001201AA /* ViewController.swift */,
+				84DB81DB1B5CE15D005A330A /* MyCollectionViewController.swift */,
+				84DB81BD1B4F93C5005A330A /* ViewController2.swift */,
+				8412A8E51B433CE8001201AA /* Main.storyboard */,
+				84D9F1261B61FA0100725147 /* MyCollectionViewCell.swift */,
+				84D9F1241B6040E100725147 /* MyCollectionReusableView.swift */,
+				8412A8E81B433CE8001201AA /* Images.xcassets */,
+				8412A8EA1B433CE8001201AA /* LaunchScreen.xib */,
+				8412A8DF1B433CE8001201AA /* Supporting Files */,
+			);
+			path = TYCardv2;
+			sourceTree = "<group>";
+		};
+		8412A8DF1B433CE8001201AA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				84B598481C1E608800CA082A /* card-01.jpg */,
+				84B598491C1E608800CA082A /* card-02.jpg */,
+				84B5984A1C1E608800CA082A /* card-03.jpg */,
+				84B5984B1C1E608800CA082A /* card-04.jpg */,
+				84B5984C1C1E608800CA082A /* card-05.jpg */,
+				84B5984D1C1E608800CA082A /* card-07.jpg */,
+				84B5984E1C1E608800CA082A /* card-08.jpg */,
+				84B5984F1C1E608800CA082A /* card-09.jpg */,
+				84B598501C1E608800CA082A /* card-10.jpg */,
+				84B598511C1E608800CA082A /* card-11.jpg */,
+				84B598421C1E607400CA082A /* prog1.jpg */,
+				84B598431C1E607400CA082A /* prog2.jpg */,
+				84B598441C1E607400CA082A /* prog3.jpg */,
+				8412A8E01B433CE8001201AA /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8412A8F41B433CE8001201AA /* TYCardv2Tests */ = {
+			isa = PBXGroup;
+			children = (
+				8412A8F71B433CE8001201AA /* TYCardv2Tests.swift */,
+				8412A8F51B433CE8001201AA /* Supporting Files */,
+			);
+			path = TYCardv2Tests;
+			sourceTree = "<group>";
+		};
+		8412A8F51B433CE8001201AA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8412A8F61B433CE8001201AA /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8412A8DB1B433CE8001201AA /* TYCardv2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8412A8FB1B433CE8001201AA /* Build configuration list for PBXNativeTarget "TYCardv2" */;
+			buildPhases = (
+				8412A8D81B433CE8001201AA /* Sources */,
+				8412A8D91B433CE8001201AA /* Frameworks */,
+				8412A8DA1B433CE8001201AA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TYCardv2;
+			productName = TYCardv2;
+			productReference = 8412A8DC1B433CE8001201AA /* TYCardv2.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8412A8F01B433CE8001201AA /* TYCardv2Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8412A8FE1B433CE8001201AA /* Build configuration list for PBXNativeTarget "TYCardv2Tests" */;
+			buildPhases = (
+				8412A8ED1B433CE8001201AA /* Sources */,
+				8412A8EE1B433CE8001201AA /* Frameworks */,
+				8412A8EF1B433CE8001201AA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8412A8F31B433CE8001201AA /* PBXTargetDependency */,
+			);
+			name = TYCardv2Tests;
+			productName = TYCardv2Tests;
+			productReference = 8412A8F11B433CE8001201AA /* TYCardv2Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8412A8D41B433CE8001201AA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftMigration = 0720;
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Andy Wei";
+				TargetAttributes = {
+					8412A8DB1B433CE8001201AA = {
+						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = XXT6R5472Y;
+					};
+					8412A8F01B433CE8001201AA = {
+						CreatedOnToolsVersion = 6.3.1;
+						TestTargetID = 8412A8DB1B433CE8001201AA;
+					};
+				};
+			};
+			buildConfigurationList = 8412A8D71B433CE8001201AA /* Build configuration list for PBXProject "TYCardV2" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8412A8D31B433CE8001201AA;
+			productRefGroup = 8412A8DD1B433CE8001201AA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8412A8DB1B433CE8001201AA /* TYCardv2 */,
+				8412A8F01B433CE8001201AA /* TYCardv2Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8412A8DA1B433CE8001201AA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84B598571C1E608800CA082A /* card-07.jpg in Resources */,
+				8412A8E71B433CE8001201AA /* Main.storyboard in Resources */,
+				84B598591C1E608800CA082A /* card-09.jpg in Resources */,
+				84B598581C1E608800CA082A /* card-08.jpg in Resources */,
+				84B598531C1E608800CA082A /* card-02.jpg in Resources */,
+				84B5985A1C1E608800CA082A /* card-10.jpg in Resources */,
+				84B5985B1C1E608800CA082A /* card-11.jpg in Resources */,
+				84B598451C1E607400CA082A /* prog1.jpg in Resources */,
+				84B598541C1E608800CA082A /* card-03.jpg in Resources */,
+				84B598561C1E608800CA082A /* card-05.jpg in Resources */,
+				8412A8EC1B433CE8001201AA /* LaunchScreen.xib in Resources */,
+				84B598551C1E608800CA082A /* card-04.jpg in Resources */,
+				8412A8E91B433CE8001201AA /* Images.xcassets in Resources */,
+				84B598521C1E608800CA082A /* card-01.jpg in Resources */,
+				84B598471C1E607400CA082A /* prog3.jpg in Resources */,
+				84B598461C1E607400CA082A /* prog2.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8412A8EF1B433CE8001201AA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8412A8D81B433CE8001201AA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84DB81DC1B5CE15D005A330A /* MyCollectionViewController.swift in Sources */,
+				8412A8E41B433CE8001201AA /* ViewController.swift in Sources */,
+				84D9F1271B61FA0100725147 /* MyCollectionViewCell.swift in Sources */,
+				8412A8E21B433CE8001201AA /* AppDelegate.swift in Sources */,
+				84D9F1251B6040E100725147 /* MyCollectionReusableView.swift in Sources */,
+				84DB81BE1B4F93C5005A330A /* ViewController2.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8412A8ED1B433CE8001201AA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8412A8F81B433CE8001201AA /* TYCardv2Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8412A8F31B433CE8001201AA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8412A8DB1B433CE8001201AA /* TYCardv2 */;
+			targetProxy = 8412A8F21B433CE8001201AA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8412A8E51B433CE8001201AA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8412A8E61B433CE8001201AA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8412A8EA1B433CE8001201AA /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8412A8EB1B433CE8001201AA /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8412A8F91B433CE8001201AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8412A8FA1B433CE8001201AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8412A8FC1B433CE8001201AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = TYCardv2/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.downforce.TYCardV2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		8412A8FD1B433CE8001201AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = TYCardv2/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.downforce.TYCardV2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+		8412A8FF1B433CE8001201AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = TYCardv2Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.downforce.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TYCardv2.app/TYCardv2";
+			};
+			name = Debug;
+		};
+		8412A9001B433CE8001201AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = TYCardv2Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.downforce.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TYCardv2.app/TYCardv2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8412A8D71B433CE8001201AA /* Build configuration list for PBXProject "TYCardV2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8412A8F91B433CE8001201AA /* Debug */,
+				8412A8FA1B433CE8001201AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8412A8FB1B433CE8001201AA /* Build configuration list for PBXNativeTarget "TYCardv2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8412A8FC1B433CE8001201AA /* Debug */,
+				8412A8FD1B433CE8001201AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8412A8FE1B433CE8001201AA /* Build configuration list for PBXNativeTarget "TYCardv2Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8412A8FF1B433CE8001201AA /* Debug */,
+				8412A9001B433CE8001201AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8412A8D41B433CE8001201AA /* Project object */;
+}
